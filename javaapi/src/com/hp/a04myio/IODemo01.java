@@ -30,6 +30,10 @@ public class IODemo01 {
         System.out.println("name = " + name);
         long length = file.length();
         System.out.println("length = " + length);
-
+        //文件的删除
+        if (exists){
+            System.out.println("文件删除");
+            file.delete();
+        }
     }
 }
